@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="src/memoji.gif" width=100/>
+  <img src="src/memoji.gif" width=50/>
 </p>
 
 <p align="center">
