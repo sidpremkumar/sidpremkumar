@@ -9,7 +9,7 @@
 <p align="center">
     <b>My name is Sid Premkumar and I love working Software 🦾</b>
     <br/>
-    <b Love 🪠 Infrastructure</b>
+    <b> I 🫶 Containers</b>
     <br/>
     <br/>
     <b>You can find my at my website <a href="https://sidpremkumar.com">sidpremkumar.com</a> or LinkedIn <a href="https://www.linkedin.com/in/sidpremkumar/">linkedin.com/in/sidpremkumar</a></b>
