@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <b>My name is Sid Premkumar and I love working Software 🦾</b>
+    <b>My name is Sid Premkumar and I love working on software 🦾</b>
     <br/>
     <b> I 🫶 Containers</b>
     <br/>
