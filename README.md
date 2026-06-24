@@ -1,18 +1,67 @@
-<p align="center">
-    <b>Hi there 👋</b>
-</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020a04"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- typing clips -->
+    <clipPath id="c1"><rect x="30" y="62"  height="26" width="0"><animate attributeName="width" values="0;0;110;110;0"   keyTimes="0;0;0.062;0.93;1"     dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="30" y="88"  height="26" width="0"><animate attributeName="width" values="0;0;470;470;0"   keyTimes="0;0.062;0.185;0.93;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="30" y="122" height="26" width="0"><animate attributeName="width" values="0;0;240;240;0"   keyTimes="0;0.2;0.277;0.93;1"   dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="30" y="148" height="26" width="0"><animate attributeName="width" values="0;0;600;600;0"   keyTimes="0;0.277;0.415;0.93;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="30" y="182" height="26" width="0"><animate attributeName="width" values="0;0;290;290;0"   keyTimes="0;0.431;0.508;0.93;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="30" y="208" height="26" width="0"><animate attributeName="width" values="0;0;440;440;0"   keyTimes="0;0.508;0.662;0.93;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
 
-<p align="center">
-  <img src="src/memoji.gif" height=150 width=190 />
-</p>
+  <!-- backdrop -->
+  <rect width="900" height="300" rx="12" fill="url(#bgGrad)"/>
 
-<p align="center">
-    <b>My name is Sid Premkumar and I love working on software 🦾</b>
-    <br/>
-    <b> I 🫶 Containers</b>
-    <br/>
-    <br/>
-    <b>You can find my at my website <a href="https://sidpremkumar.com">sidpremkumar.com</a> or LinkedIn <a href="https://www.linkedin.com/in/sidpremkumar/">linkedin.com/in/sidpremkumar</a></b>
-    <br/>
-    <b>Check out my repos below ⬇️</b>
-</p>
+  <!-- matrix rain -->
+  <g fill="#00ff66" font-size="16" opacity="0.16" font-family="monospace">
+    <text x="60"  y="0">D<tspan x="60"  dy="20">0</tspan><tspan x="60" dy="20">1</tspan><tspan x="60" dy="20">k</tspan><tspan x="60" dy="20">$</tspan><tspan x="60" dy="20">x</tspan><tspan x="60" dy="20">7</tspan><tspan x="60" dy="20">e</tspan><tspan x="60" dy="20">v</tspan><tspan x="60" dy="20">#</tspan><tspan x="60" dy="20">9</tspan><tspan x="60" dy="20">a</tspan><tspan x="60" dy="20">2</tspan><tspan x="60" dy="20">f</tspan><tspan x="60" dy="20">8</tspan><tspan x="60" dy="20">q</tspan><tspan x="60" dy="20">b</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="4.5s" repeatCount="indefinite"/></text>
+    <text x="180" y="0">1<tspan x="180" dy="20">x</tspan><tspan x="180" dy="20">@</tspan><tspan x="180" dy="20">3</tspan><tspan x="180" dy="20">m</tspan><tspan x="180" dy="20">0</tspan><tspan x="180" dy="20">z</tspan><tspan x="180" dy="20">5</tspan><tspan x="180" dy="20">p</tspan><tspan x="180" dy="20">w</tspan><tspan x="180" dy="20">4</tspan><tspan x="180" dy="20">k</tspan><tspan x="180" dy="20">8</tspan><tspan x="180" dy="20">t</tspan><tspan x="180" dy="20">1</tspan><tspan x="180" dy="20">c</tspan><tspan x="180" dy="20">6</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="6.2s" repeatCount="indefinite"/></text>
+    <text x="300" y="0">9<tspan x="300" dy="20">e</tspan><tspan x="300" dy="20">7</tspan><tspan x="300" dy="20">/</tspan><tspan x="300" dy="20">a</tspan><tspan x="300" dy="20">2</tspan><tspan x="300" dy="20">n</tspan><tspan x="300" dy="20">d</tspan><tspan x="300" dy="20">0</tspan><tspan x="300" dy="20">5</tspan><tspan x="300" dy="20">r</tspan><tspan x="300" dy="20">y</tspan><tspan x="300" dy="20">6</tspan><tspan x="300" dy="20">8</tspan><tspan x="300" dy="20">l</tspan><tspan x="300" dy="20">3</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="5.1s" repeatCount="indefinite"/></text>
+    <text x="640" y="0">k<tspan x="640" dy="20">8</tspan><tspan x="640" dy="20">s</tspan><tspan x="640" dy="20">3</tspan><tspan x="640" dy="20">0</tspan><tspan x="640" dy="20">d</tspan><tspan x="640" dy="20">a</tspan><tspan x="640" dy="20">w</tspan><tspan x="640" dy="20">5</tspan><tspan x="640" dy="20">$</tspan><tspan x="640" dy="20">f</tspan><tspan x="640" dy="20">2</tspan><tspan x="640" dy="20">9</tspan><tspan x="640" dy="20">m</tspan><tspan x="640" dy="20">e</tspan><tspan x="640" dy="20">7</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="4.0s" repeatCount="indefinite"/></text>
+    <text x="760" y="0">5<tspan x="760" dy="20">t</tspan><tspan x="760" dy="20">f</tspan><tspan x="760" dy="20">1</tspan><tspan x="760" dy="20">c</tspan><tspan x="760" dy="20">9</tspan><tspan x="760" dy="20">o</tspan><tspan x="760" dy="20">b</tspan><tspan x="760" dy="20">3</tspan><tspan x="760" dy="20">u</tspan><tspan x="760" dy="20">d</tspan><tspan x="760" dy="20">0</tspan><tspan x="760" dy="20">e</tspan><tspan x="760" dy="20">6</tspan><tspan x="760" dy="20">r</tspan><tspan x="760" dy="20">a</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="6.8s" repeatCount="indefinite"/></text>
+    <text x="855" y="0">v<tspan x="855" dy="20">4</tspan><tspan x="855" dy="20">k</tspan><tspan x="855" dy="20">8</tspan><tspan x="855" dy="20">s</tspan><tspan x="855" dy="20">0</tspan><tspan x="855" dy="20">9</tspan><tspan x="855" dy="20">p</tspan><tspan x="855" dy="20">x</tspan><tspan x="855" dy="20">2</tspan><tspan x="855" dy="20">7</tspan><tspan x="855" dy="20">e</tspan><tspan x="855" dy="20">a</tspan><tspan x="855" dy="20">m</tspan><tspan x="855" dy="20">1</tspan><tspan x="855" dy="20">d</tspan><animateTransform attributeName="transform" type="translate" from="0 -340" to="0 0" dur="5.6s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- terminal window -->
+  <rect x="14" y="14" width="872" height="272" rx="10" fill="#000000" fill-opacity="0.72" stroke="#0f3d22" stroke-width="1.5"/>
+  <!-- title bar -->
+  <rect x="14" y="14" width="872" height="30" rx="10" fill="#06150c"/>
+  <rect x="14" y="34" width="872" height="10" fill="#06150c"/>
+  <circle cx="36" cy="29" r="5" fill="#ff5f56"/>
+  <circle cx="56" cy="29" r="5" fill="#ffbd2e"/>
+  <circle cx="76" cy="29" r="5" fill="#27c93f"/>
+  <text x="450" y="33" text-anchor="middle" fill="#3fae6f" font-size="13" letter-spacing="1">sid@matrix: ~/infra</text>
+
+  <!-- terminal body -->
+  <g font-size="18" filter="url(#glow)">
+    <!-- line 1 -->
+    <g clip-path="url(#c1)"><text x="36" y="81" fill="#7df9aa"><tspan fill="#39d65a">$</tspan> whoami</text></g>
+    <g clip-path="url(#c2)"><text x="36" y="107" fill="#e8fff0">Sid Premkumar <tspan fill="#39d65a">::</tspan> Infra &amp; DevOps Engineer</text></g>
+    <!-- line 2 -->
+    <g clip-path="url(#c3)"><text x="36" y="141" fill="#7df9aa"><tspan fill="#39d65a">$</tspan> cat tech_stack.txt</text></g>
+    <g clip-path="url(#c4)"><text x="36" y="167" fill="#00ff88">AWS · Kubernetes · Terraform · Docker · Go · Python</text></g>
+    <!-- line 3 -->
+    <g clip-path="url(#c5)"><text x="36" y="201" fill="#7df9aa"><tspan fill="#39d65a">$</tspan> ./skippy --deploy prod</text></g>
+    <g clip-path="url(#c6)"><text x="36" y="227" fill="#00ff88"><tspan fill="#39d65a">✓</tspan> shipping reliable infrastructure...</text></g>
+  </g>
+
+  <!-- idle prompt + blinking caret -->
+  <text x="36" y="261" font-size="18" fill="#39d65a" filter="url(#glow)">$</text>
+  <rect x="50" y="246" width="11" height="19" fill="#00ff88" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- scanline sheen -->
+  <rect width="900" height="300" rx="12" fill="#00ff66" opacity="0.025"/>
+</svg>
