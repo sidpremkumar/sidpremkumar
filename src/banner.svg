@@ -41,7 +41,7 @@
   <circle cx="36" cy="29" r="5" fill="#ff5f56"/>
   <circle cx="56" cy="29" r="5" fill="#ffbd2e"/>
   <circle cx="76" cy="29" r="5" fill="#27c93f"/>
-  <text x="450" y="33" text-anchor="middle" fill="#3fae6f" font-size="13" letter-spacing="1">sid@matrix: ~/infra</text>
+  <text x="450" y="33" text-anchor="middle" fill="#3fae6f" font-size="13" letter-spacing="1">sid@nyc: ~/infra</text>
 
   <!-- terminal body -->
   <g font-size="18" filter="url(#glow)">
